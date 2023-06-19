@@ -1,2 +1,2 @@
 # OOP-Java-Springboot
-La repository del modulo Java affrontato all'ITS
+Nelle branches di questa repository è possibile trovare tutti gli esercizi svolti durante il modulo Java.
