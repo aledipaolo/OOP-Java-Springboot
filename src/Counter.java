@@ -6,7 +6,19 @@ public class Counter {
         this.number = number;
     }
 
+    public static void incrementCount(Counter counter) {
+        count += counter.getNumber();
+    }
+
     public static int getCount() {
         return count;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public int getNumber() {
+        return number;
     }
 }
