@@ -1,17 +1,12 @@
-import models.Car;
-
 public class Main {
     public static void main(String[] args) {
-        Car car = new Car ("Fiesta", "Ford", 2004);
+        Car car = new Car(130);
+        Motorcycle motorcycle = new Motorcycle(200);
 
-        System.out.println(car.year);
-        /*
-        System.out.println(car.model); // Error: manufacturer is private
-        System.out.println(car.manufacturer); // Error: manufacturer is protected
-         */
+        System.out.println("Car speed: " + car.getSpeed());
+        System.out.println("Motorcycle speed: " + motorcycle.getSpeed());
 
-        // Can get them from methods
-        System.out.println(car.getModel());
-        System.out.println(car.getManufacturer());
+        System.out.println("Car tires: " + car.getNumberOfTires());
+        System.out.println("Motorcycle tires: " + motorcycle.getNumberOfTires());
     }
 }
